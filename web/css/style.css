@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.row
+{
+    max-width: 1104px;
+    margin: auto;
+    
+}
+.main
+{
+ 
+float: right;
+list-style: none;
+  margin-top: 60px;
+    
+}
+
+.main li
+{
+    display: inline;
+    margin-left: 20px;
+ 
+}
+.main li a
+{
+    
+color: red;
+    text-decoration: none;
+    font-size:150%;
+    font-weight: bold;
+    
+}
+
+h1
+{
+    color: yellow;
+    font-family: cursive;
+    
+}
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/img1.jpg");
+  height:100vh;
+  background-position:center;
+   background-size:cover;
+    background-attachment:fixed;
+    
+font-family: tahoma;    
+}
+
+ //background-image:linear-gradient(turquoise); //(rgba(0,0,0,0),rgba(0,0,0,0.7)),url(img/hb1.jpg);
+  //  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img3.png");
+  //background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+    //              url("../img1.jpg");  
+header
+{
+
+}
+
+
+.main li a:hover
+{
+    color:darkorange;
+    border-bottom: 2px solid darkorange;
+    transition: all 0.5s ease-in; 
+    padding: 15px 0;
+    
+}
+
+.loginform 
+{
+    
+/*
+    color:darkorange;
+    text-decoration: none;
+    font-size:150%;
+    font font-weight: bold;
+
+    
+        color:darkorange;
+    margin-left: 40px;
+    margin-right: 20px;
+    float: right;
+list-style: none;
+    */    margin-left:40% 
+}
+
+.table
+{
+    
+display: inline-table;
+    margin-left:40% ;
+    float:right;
+  margin-top: 200px; 
+margin-right: 40px;
+    
+}
+.table th {
+    color: aqua;
+}
+
+.logo img
+{
+    display:inline-block;
+
+    margin-left: 80px;
+    margin-top: 200px;
+}
+
+.v1{  
+display: inline-table;
+  margin-left:40% ;
+    float:right;
+  margin-top: 200px; 
+margin-right: 50px;
+}  
+.text
+{
+text-align:right;
+font-size: 30;
+color: fuchsia;
+margin-left:30%;
+}
